@@ -1,0 +1,447 @@
+{
+  "total_rows": 649,
+  "total_cols": 34,
+  "duplicate_rows": 0,
+  "missing_values_per_col": {
+    "school": 0,
+    "sex": 0,
+    "age": 0,
+    "address": 0,
+    "famsize": 0,
+    "Pstatus": 0,
+    "Medu": 0,
+    "Fedu": 0,
+    "Mjob": 0,
+    "Fjob": 0,
+    "reason": 0,
+    "guardian": 0,
+    "traveltime": 0,
+    "studytime": 0,
+    "failures": 0,
+    "schoolsup": 0,
+    "famsup": 0,
+    "paid": 0,
+    "activities": 0,
+    "nursery": 0,
+    "higher": 0,
+    "internet": 0,
+    "romantic": 0,
+    "famrel": 0,
+    "freetime": 0,
+    "goout": 0,
+    "Dalc": 0,
+    "Walc": 0,
+    "health": 0,
+    "absences": 0,
+    "G1": 0,
+    "G2": 0,
+    "G3": 0,
+    "target_class": 0
+  },
+  "total_missing_cells": 0,
+  "target_distribution": {
+    "Poor (0-9)": {
+      "count": 100,
+      "percentage": 15.41
+    },
+    "Average (10-12)": {
+      "count": 273,
+      "percentage": 42.06
+    },
+    "Good (13-15)": {
+      "count": 194,
+      "percentage": 29.89
+    },
+    "Excellent (16-20)": {
+      "count": 82,
+      "percentage": 12.63
+    }
+  },
+  "categorical_features": {
+    "school": {
+      "unique_count": 2,
+      "values": [
+        "GP",
+        "MS"
+      ],
+      "distribution": {
+        "GP": 423,
+        "MS": 226
+      }
+    },
+    "sex": {
+      "unique_count": 2,
+      "values": [
+        "F",
+        "M"
+      ],
+      "distribution": {
+        "F": 383,
+        "M": 266
+      }
+    },
+    "address": {
+      "unique_count": 2,
+      "values": [
+        "U",
+        "R"
+      ],
+      "distribution": {
+        "U": 452,
+        "R": 197
+      }
+    },
+    "famsize": {
+      "unique_count": 2,
+      "values": [
+        "GT3",
+        "LE3"
+      ],
+      "distribution": {
+        "GT3": 457,
+        "LE3": 192
+      }
+    },
+    "Pstatus": {
+      "unique_count": 2,
+      "values": [
+        "T",
+        "A"
+      ],
+      "distribution": {
+        "T": 569,
+        "A": 80
+      }
+    },
+    "Mjob": {
+      "unique_count": 5,
+      "values": [
+        "other",
+        "services",
+        "at_home",
+        "teacher",
+        "health"
+      ],
+      "distribution": {
+        "other": 258,
+        "services": 136,
+        "at_home": 135,
+        "teacher": 72,
+        "health": 48
+      }
+    },
+    "Fjob": {
+      "unique_count": 5,
+      "values": [
+        "other",
+        "services",
+        "at_home",
+        "teacher",
+        "health"
+      ],
+      "distribution": {
+        "other": 367,
+        "services": 181,
+        "at_home": 42,
+        "teacher": 36,
+        "health": 23
+      }
+    },
+    "reason": {
+      "unique_count": 4,
+      "values": [
+        "course",
+        "home",
+        "reputation",
+        "other"
+      ],
+      "distribution": {
+        "course": 285,
+        "home": 149,
+        "reputation": 143,
+        "other": 72
+      }
+    },
+    "guardian": {
+      "unique_count": 3,
+      "values": [
+        "mother",
+        "father",
+        "other"
+      ],
+      "distribution": {
+        "mother": 455,
+        "father": 153,
+        "other": 41
+      }
+    },
+    "schoolsup": {
+      "unique_count": 2,
+      "values": [
+        "no",
+        "yes"
+      ],
+      "distribution": {
+        "no": 581,
+        "yes": 68
+      }
+    },
+    "famsup": {
+      "unique_count": 2,
+      "values": [
+        "yes",
+        "no"
+      ],
+      "distribution": {
+        "yes": 398,
+        "no": 251
+      }
+    },
+    "paid": {
+      "unique_count": 2,
+      "values": [
+        "no",
+        "yes"
+      ],
+      "distribution": {
+        "no": 610,
+        "yes": 39
+      }
+    },
+    "activities": {
+      "unique_count": 2,
+      "values": [
+        "no",
+        "yes"
+      ],
+      "distribution": {
+        "no": 334,
+        "yes": 315
+      }
+    },
+    "nursery": {
+      "unique_count": 2,
+      "values": [
+        "yes",
+        "no"
+      ],
+      "distribution": {
+        "yes": 521,
+        "no": 128
+      }
+    },
+    "higher": {
+      "unique_count": 2,
+      "values": [
+        "yes",
+        "no"
+      ],
+      "distribution": {
+        "yes": 580,
+        "no": 69
+      }
+    },
+    "internet": {
+      "unique_count": 2,
+      "values": [
+        "yes",
+        "no"
+      ],
+      "distribution": {
+        "yes": 498,
+        "no": 151
+      }
+    },
+    "romantic": {
+      "unique_count": 2,
+      "values": [
+        "no",
+        "yes"
+      ],
+      "distribution": {
+        "no": 410,
+        "yes": 239
+      }
+    }
+  },
+  "numerical_features": {
+    "age": {
+      "min": 15.0,
+      "max": 22.0,
+      "mean": 16.744,
+      "std": 1.218,
+      "median": 17.0,
+      "iqr": 2.0,
+      "outlier_count_iqr": 1
+    },
+    "Medu": {
+      "min": 0.0,
+      "max": 4.0,
+      "mean": 2.515,
+      "std": 1.135,
+      "median": 2.0,
+      "iqr": 2.0,
+      "outlier_count_iqr": 0
+    },
+    "Fedu": {
+      "min": 0.0,
+      "max": 4.0,
+      "mean": 2.307,
+      "std": 1.1,
+      "median": 2.0,
+      "iqr": 2.0,
+      "outlier_count_iqr": 0
+    },
+    "traveltime": {
+      "min": 1.0,
+      "max": 4.0,
+      "mean": 1.569,
+      "std": 0.749,
+      "median": 1.0,
+      "iqr": 1.0,
+      "outlier_count_iqr": 16
+    },
+    "studytime": {
+      "min": 1.0,
+      "max": 4.0,
+      "mean": 1.931,
+      "std": 0.83,
+      "median": 2.0,
+      "iqr": 1.0,
+      "outlier_count_iqr": 35
+    },
+    "failures": {
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.222,
+      "std": 0.593,
+      "median": 0.0,
+      "iqr": 0.0,
+      "outlier_count_iqr": 100
+    },
+    "famrel": {
+      "min": 1.0,
+      "max": 5.0,
+      "mean": 3.931,
+      "std": 0.956,
+      "median": 4.0,
+      "iqr": 1.0,
+      "outlier_count_iqr": 51
+    },
+    "freetime": {
+      "min": 1.0,
+      "max": 5.0,
+      "mean": 3.18,
+      "std": 1.051,
+      "median": 3.0,
+      "iqr": 1.0,
+      "outlier_count_iqr": 45
+    },
+    "goout": {
+      "min": 1.0,
+      "max": 5.0,
+      "mean": 3.185,
+      "std": 1.176,
+      "median": 3.0,
+      "iqr": 2.0,
+      "outlier_count_iqr": 0
+    },
+    "Dalc": {
+      "min": 1.0,
+      "max": 5.0,
+      "mean": 1.502,
+      "std": 0.925,
+      "median": 1.0,
+      "iqr": 1.0,
+      "outlier_count_iqr": 34
+    },
+    "Walc": {
+      "min": 1.0,
+      "max": 5.0,
+      "mean": 2.28,
+      "std": 1.284,
+      "median": 2.0,
+      "iqr": 2.0,
+      "outlier_count_iqr": 0
+    },
+    "health": {
+      "min": 1.0,
+      "max": 5.0,
+      "mean": 3.536,
+      "std": 1.446,
+      "median": 4.0,
+      "iqr": 3.0,
+      "outlier_count_iqr": 0
+    },
+    "absences": {
+      "min": 0.0,
+      "max": 32.0,
+      "mean": 3.659,
+      "std": 4.641,
+      "median": 2.0,
+      "iqr": 6.0,
+      "outlier_count_iqr": 21
+    },
+    "G1": {
+      "min": 0.0,
+      "max": 19.0,
+      "mean": 11.399,
+      "std": 2.745,
+      "median": 11.0,
+      "iqr": 3.0,
+      "outlier_count_iqr": 16
+    },
+    "G2": {
+      "min": 0.0,
+      "max": 19.0,
+      "mean": 11.57,
+      "std": 2.914,
+      "median": 11.0,
+      "iqr": 3.0,
+      "outlier_count_iqr": 25
+    },
+    "G3": {
+      "min": 0.0,
+      "max": 19.0,
+      "mean": 11.906,
+      "std": 3.231,
+      "median": 12.0,
+      "iqr": 4.0,
+      "outlier_count_iqr": 16
+    }
+  },
+  "correlations_with_g3": {
+    "G2": 0.9185,
+    "G1": 0.8264,
+    "studytime": 0.2498,
+    "Medu": 0.2402,
+    "Fedu": 0.2118,
+    "famrel": 0.0634,
+    "goout": -0.0876,
+    "absences": -0.0914,
+    "health": -0.0989,
+    "age": -0.1065,
+    "freetime": -0.1227,
+    "traveltime": -0.1272,
+    "Walc": -0.1766,
+    "Dalc": -0.2047,
+    "failures": -0.3933
+  },
+  "correlated_feature_pairs": [
+    {
+      "feature_1": "Medu",
+      "feature_2": "Fedu",
+      "correlation": 0.6475
+    },
+    {
+      "feature_1": "Dalc",
+      "feature_2": "Walc",
+      "correlation": 0.6166
+    },
+    {
+      "feature_1": "G1",
+      "feature_2": "G2",
+      "correlation": 0.865
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "model_name": "Gradient Boosting",
+  "hyperparameters": {
+    "n_estimators": 100,
+    "min_samples_leaf": 4,
+    "max_depth": 2,
+    "learning_rate": 0.05
+  },
+  "cross_validation_metrics_5fold": {
+    "mean_macro_f1": 0.8114550595446962,
+    "std_macro_f1": 0.023204133190549904,
+    "mean_accuracy": 0.8203112203112202,
+    "std_accuracy": 0.029061722156585004,
+    "mean_macro_precision": 0.8386781306266601,
+    "mean_macro_recall": 0.8027822656203242
+  },
+  "test_metrics_outer": {
+    "accuracy": 0.7244897959183674,
+    "macro_precision": 0.7512973137973138,
+    "macro_recall": 0.7753455823682905,
+    "macro_f1": 0.7516454134101194,
+    "weighted_precision": 0.7485516184495777,
+    "weighted_recall": 0.7753455823682905,
+    "weighted_f1": 0.720633708028666,
+    "per_class": {
+      "Poor": {
+        "class_index": 0,
+        "precision": 0.7222222222222222,
+        "recall": 0.8666666666666667,
+        "f1_score": 0.7878787878787878,
+        "support": 15
+      },
+      "Average": {
+        "class_index": 1,
+        "precision": 0.8214285714285714,
+        "recall": 0.5609756097560976,
+        "f1_score": 0.6666666666666666,
+        "support": 41
+      },
+      "Good": {
+        "class_index": 2,
+        "precision": 0.6153846153846154,
+        "recall": 0.8275862068965517,
+        "f1_score": 0.7058823529411765,
+        "support": 29
+      },
+      "Excellent": {
+        "class_index": 3,
+        "precision": 0.8461538461538461,
+        "recall": 0.8461538461538461,
+        "f1_score": 0.8461538461538461,
+        "support": 13
+      }
+    }
+  },
+  "confusion_matrix": [
+    [
+      13,
+      2,
+      0,
+      0
+    ],
+    [
+      5,
+      23,
+      13,
+      0
+    ],
+    [
+      0,
+      3,
+      24,
+      2
+    ],
+    [
+      0,
+      0,
+      2,
+      11
+    ]
+  ]
+}

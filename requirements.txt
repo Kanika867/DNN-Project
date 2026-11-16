@@ -1,0 +1,12 @@
+# Core Data Manipulation and Numerical Computing
+numpy>=1.26.0
+pandas>=2.2.0
+pyarrow>=15.0.0
+
+# Machine Learning & Pipelines
+scikit-learn>=1.5.0
+joblib>=1.4.0
+
+# Interactive Visualization & Frontend
+plotly>=5.20.0
+streamlit>=1.35.0

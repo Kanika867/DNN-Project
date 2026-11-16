@@ -1,0 +1,154 @@
+{
+  "metrics_comparison": [
+    {
+      "Metric": "Accuracy",
+      "Random Forest": 0.6632653061224489,
+      "Deep Neural Network": 0.6836734693877551,
+      "Difference (DNN - RF)": 0.020408163265306145,
+      "Leading Model": "DNN"
+    },
+    {
+      "Metric": "Macro Precision",
+      "Random Forest": 0.6601038190582128,
+      "Deep Neural Network": 0.6637609649122806,
+      "Difference (DNN - RF)": 0.0036571458540678448,
+      "Leading Model": "DNN"
+    },
+    {
+      "Metric": "Macro Recall",
+      "Random Forest": 0.7261855470013587,
+      "Deep Neural Network": 0.6989400703025598,
+      "Difference (DNN - RF)": -0.027245476698798954,
+      "Leading Model": "RF"
+    },
+    {
+      "Metric": "Macro F1-Score",
+      "Random Forest": 0.677922077922078,
+      "Deep Neural Network": 0.6747028252127258,
+      "Difference (DNN - RF)": -0.003219252709352194,
+      "Leading Model": "RF"
+    },
+    {
+      "Metric": "Weighted F1-Score",
+      "Random Forest": 0.660270341902995,
+      "Deep Neural Network": 0.6866683730371941,
+      "Difference (DNN - RF)": 0.02639803113419903,
+      "Leading Model": "DNN"
+    }
+  ],
+  "per_class_comparison": [
+    {
+      "Class": "Poor",
+      "RF_F1": 0.7272727272727273,
+      "DNN_F1": 0.7647058823529411,
+      "Diff (DNN - RF)": 0.03743315508021383,
+      "Leader": "DNN"
+    },
+    {
+      "Class": "Average",
+      "RF_F1": 0.6571428571428571,
+      "DNN_F1": 0.7397260273972602,
+      "Diff (DNN - RF)": 0.0825831702544031,
+      "Leader": "DNN"
+    },
+    {
+      "Class": "Good",
+      "RF_F1": 0.6,
+      "DNN_F1": 0.6229508196721312,
+      "Diff (DNN - RF)": 0.022950819672131195,
+      "Leader": "DNN"
+    },
+    {
+      "Class": "Excellent",
+      "RF_F1": 0.7272727272727273,
+      "DNN_F1": 0.5714285714285714,
+      "Diff (DNN - RF)": -0.1558441558441559,
+      "Leader": "RF"
+    }
+  ],
+  "primary_metric": "Macro F1-Score",
+  "rf_macro_f1": 0.677922077922078,
+  "dnn_macro_f1": 0.6747028252127258,
+  "macro_f1_winner": "Random Forest",
+  "rf_accuracy": 0.6632653061224489,
+  "dnn_accuracy": 0.6836734693877551,
+  "accuracy_winner": "Deep Neural Network",
+  "detailed_rf": {
+    "accuracy": 0.6632653061224489,
+    "macro_precision": 0.6601038190582128,
+    "macro_recall": 0.7261855470013587,
+    "macro_f1": 0.677922077922078,
+    "weighted_precision": 0.6852648067013235,
+    "weighted_recall": 0.6632653061224489,
+    "weighted_f1": 0.660270341902995,
+    "per_class": {
+      "Poor": {
+        "class_index": 0,
+        "precision": 0.6666666666666666,
+        "recall": 0.8,
+        "f1_score": 0.7272727272727273,
+        "support": 15
+      },
+      "Average": {
+        "class_index": 1,
+        "precision": 0.7931034482758621,
+        "recall": 0.5609756097560976,
+        "f1_score": 0.6571428571428571,
+        "support": 41
+      },
+      "Good": {
+        "class_index": 2,
+        "precision": 0.5806451612903226,
+        "recall": 0.6206896551724138,
+        "f1_score": 0.6,
+        "support": 29
+      },
+      "Excellent": {
+        "class_index": 3,
+        "precision": 0.6,
+        "recall": 0.9230769230769231,
+        "f1_score": 0.7272727272727273,
+        "support": 13
+      }
+    }
+  },
+  "detailed_dnn": {
+    "accuracy": 0.6836734693877551,
+    "macro_precision": 0.6637609649122806,
+    "macro_recall": 0.6989400703025598,
+    "macro_f1": 0.6747028252127258,
+    "weighted_precision": 0.7041733798782671,
+    "weighted_recall": 0.6836734693877551,
+    "weighted_f1": 0.6866683730371941,
+    "per_class": {
+      "Poor": {
+        "class_index": 0,
+        "precision": 0.6842105263157895,
+        "recall": 0.8666666666666667,
+        "f1_score": 0.7647058823529411,
+        "support": 15
+      },
+      "Average": {
+        "class_index": 1,
+        "precision": 0.84375,
+        "recall": 0.6585365853658537,
+        "f1_score": 0.7397260273972602,
+        "support": 41
+      },
+      "Good": {
+        "class_index": 2,
+        "precision": 0.59375,
+        "recall": 0.6551724137931034,
+        "f1_score": 0.6229508196721312,
+        "support": 29
+      },
+      "Excellent": {
+        "class_index": 3,
+        "precision": 0.5333333333333333,
+        "recall": 0.6153846153846154,
+        "f1_score": 0.5714285714285714,
+        "support": 13
+      }
+    }
+  }
+}

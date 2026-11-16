@@ -1,0 +1,380 @@
+[
+  {
+    "feature": "school",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "GP",
+      "MS"
+    ],
+    "default": "GP",
+    "suggested_widget": "st.radio",
+    "description": "Categorical student attribute (school)"
+  },
+  {
+    "feature": "sex",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "F",
+      "M"
+    ],
+    "default": "F",
+    "suggested_widget": "st.radio",
+    "description": "Categorical student attribute (sex)"
+  },
+  {
+    "feature": "age",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 15,
+    "max": 22,
+    "default": 17,
+    "step": 1,
+    "suggested_widget": "st.slider",
+    "description": "Numeric student metric (age)"
+  },
+  {
+    "feature": "address",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "R",
+      "U"
+    ],
+    "default": "R",
+    "suggested_widget": "st.radio",
+    "description": "Categorical student attribute (address)"
+  },
+  {
+    "feature": "famsize",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "GT3",
+      "LE3"
+    ],
+    "default": "GT3",
+    "suggested_widget": "st.radio",
+    "description": "Categorical student attribute (famsize)"
+  },
+  {
+    "feature": "Pstatus",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "A",
+      "T"
+    ],
+    "default": "A",
+    "suggested_widget": "st.radio",
+    "description": "Categorical student attribute (Pstatus)"
+  },
+  {
+    "feature": "Medu",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 0,
+    "max": 4,
+    "default": 2,
+    "step": 1,
+    "suggested_widget": "st.slider",
+    "description": "Numeric student metric (Medu)"
+  },
+  {
+    "feature": "Fedu",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 0,
+    "max": 4,
+    "default": 2,
+    "step": 1,
+    "suggested_widget": "st.slider",
+    "description": "Numeric student metric (Fedu)"
+  },
+  {
+    "feature": "Mjob",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "at_home",
+      "health",
+      "other",
+      "services",
+      "teacher"
+    ],
+    "default": "at_home",
+    "suggested_widget": "st.selectbox",
+    "description": "Categorical student attribute (Mjob)"
+  },
+  {
+    "feature": "Fjob",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "at_home",
+      "health",
+      "other",
+      "services",
+      "teacher"
+    ],
+    "default": "at_home",
+    "suggested_widget": "st.selectbox",
+    "description": "Categorical student attribute (Fjob)"
+  },
+  {
+    "feature": "reason",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "course",
+      "home",
+      "other",
+      "reputation"
+    ],
+    "default": "course",
+    "suggested_widget": "st.selectbox",
+    "description": "Categorical student attribute (reason)"
+  },
+  {
+    "feature": "guardian",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "father",
+      "mother",
+      "other"
+    ],
+    "default": "father",
+    "suggested_widget": "st.selectbox",
+    "description": "Categorical student attribute (guardian)"
+  },
+  {
+    "feature": "traveltime",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 1,
+    "max": 4,
+    "default": 1,
+    "step": 1,
+    "suggested_widget": "st.slider",
+    "description": "Numeric student metric (traveltime)"
+  },
+  {
+    "feature": "studytime",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 1,
+    "max": 4,
+    "default": 2,
+    "step": 1,
+    "suggested_widget": "st.slider",
+    "description": "Numeric student metric (studytime)"
+  },
+  {
+    "feature": "failures",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 0,
+    "max": 3,
+    "default": 0,
+    "step": 1,
+    "suggested_widget": "st.slider",
+    "description": "Numeric student metric (failures)"
+  },
+  {
+    "feature": "schoolsup",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "no",
+      "yes"
+    ],
+    "default": "no",
+    "suggested_widget": "st.radio",
+    "description": "Categorical student attribute (schoolsup)"
+  },
+  {
+    "feature": "famsup",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "no",
+      "yes"
+    ],
+    "default": "no",
+    "suggested_widget": "st.radio",
+    "description": "Categorical student attribute (famsup)"
+  },
+  {
+    "feature": "paid",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "no",
+      "yes"
+    ],
+    "default": "no",
+    "suggested_widget": "st.radio",
+    "description": "Categorical student attribute (paid)"
+  },
+  {
+    "feature": "activities",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "no",
+      "yes"
+    ],
+    "default": "no",
+    "suggested_widget": "st.radio",
+    "description": "Categorical student attribute (activities)"
+  },
+  {
+    "feature": "nursery",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "no",
+      "yes"
+    ],
+    "default": "no",
+    "suggested_widget": "st.radio",
+    "description": "Categorical student attribute (nursery)"
+  },
+  {
+    "feature": "higher",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "no",
+      "yes"
+    ],
+    "default": "no",
+    "suggested_widget": "st.radio",
+    "description": "Categorical student attribute (higher)"
+  },
+  {
+    "feature": "internet",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "no",
+      "yes"
+    ],
+    "default": "no",
+    "suggested_widget": "st.radio",
+    "description": "Categorical student attribute (internet)"
+  },
+  {
+    "feature": "romantic",
+    "type": "categorical",
+    "python_type": "str",
+    "options": [
+      "no",
+      "yes"
+    ],
+    "default": "no",
+    "suggested_widget": "st.radio",
+    "description": "Categorical student attribute (romantic)"
+  },
+  {
+    "feature": "famrel",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 1,
+    "max": 5,
+    "default": 4,
+    "step": 1,
+    "suggested_widget": "st.slider",
+    "description": "Numeric student metric (famrel)"
+  },
+  {
+    "feature": "freetime",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 1,
+    "max": 5,
+    "default": 3,
+    "step": 1,
+    "suggested_widget": "st.slider",
+    "description": "Numeric student metric (freetime)"
+  },
+  {
+    "feature": "goout",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 1,
+    "max": 5,
+    "default": 3,
+    "step": 1,
+    "suggested_widget": "st.slider",
+    "description": "Numeric student metric (goout)"
+  },
+  {
+    "feature": "Dalc",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 1,
+    "max": 5,
+    "default": 1,
+    "step": 1,
+    "suggested_widget": "st.slider",
+    "description": "Numeric student metric (Dalc)"
+  },
+  {
+    "feature": "Walc",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 1,
+    "max": 5,
+    "default": 2,
+    "step": 1,
+    "suggested_widget": "st.slider",
+    "description": "Numeric student metric (Walc)"
+  },
+  {
+    "feature": "health",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 1,
+    "max": 5,
+    "default": 4,
+    "step": 1,
+    "suggested_widget": "st.slider",
+    "description": "Numeric student metric (health)"
+  },
+  {
+    "feature": "absences",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 0,
+    "max": 32,
+    "default": 2,
+    "step": 1,
+    "suggested_widget": "st.number_input",
+    "description": "Numeric student metric (absences)"
+  },
+  {
+    "feature": "G1",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 0,
+    "max": 19,
+    "default": 11,
+    "step": 1,
+    "suggested_widget": "st.slider",
+    "description": "Numeric student metric (G1)"
+  },
+  {
+    "feature": "G2",
+    "type": "numeric",
+    "python_type": "int",
+    "min": 0,
+    "max": 19,
+    "default": 11,
+    "step": 1,
+    "suggested_widget": "st.slider",
+    "description": "Numeric student metric (G2)"
+  }
+]
